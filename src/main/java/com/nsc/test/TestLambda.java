@@ -1,5 +1,8 @@
 package com.nsc.test;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * Created with IntelliJ IDEA.
  * User: linux
@@ -10,6 +13,8 @@ package com.nsc.test;
 public class TestLambda {
 
     public static void main(String [] args){
-        System.out.println("hello world");
+        List<String> lst = Arrays.asList("test1","test2","test3");
+        String str = lst.stream().reduce("",(x,y)->x+"|"+y).substring(1);
+        System.out.println(str);
     }
 }
