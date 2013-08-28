@@ -14,7 +14,7 @@ public class TestLambda {
 
     public static void main(String [] args){
         List<String> lst = Arrays.asList("test1","test2","test3");
-        String str = lst.stream().reduce("",(x,y)->x+"|"+y).substring(1);
-        System.out.println(str);
+        //String str = lst.stream().reduce("",(x,y)->x+"|"+y).substring(1);
+        System.out.println(lst);
     }
 }
