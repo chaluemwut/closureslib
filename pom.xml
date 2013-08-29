@@ -17,6 +17,10 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                    <showDeprecation>true</showDeprecation>
+                    <showWarnings>true</showWarnings>
+                    <executable>/home/linux/java/jdk1.8.0/bin</executable>
+                    <fork>true</fork>
                 </configuration>
             </plugin>
         </plugins>
