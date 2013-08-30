@@ -23,6 +23,7 @@
         </plugins>
     </build>
 
+    <!-- junit test-->
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
